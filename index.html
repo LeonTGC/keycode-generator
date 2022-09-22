@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <title>keycode</title>
+  </head>
+  <body>
+    <!-- <button onclick="tester()">fire</button> -->
+    <div id="wrapper">
+      <div id="inputWrapper">
+        <h1>keycode generator</h1>
+        <input placeholder="enter key here" onkeypress="keyCode(event)" />
+      </div>
+      <div id="contentWrapper">
+        <div class="item">
+          <h3>key</h3>
+          <p id="key"></p>
+        </div>
+        <div class="item">
+          <h3>code</h3>
+          <p id="code"></p>
+        </div>
+        <div class="item">
+          <h3>which</h3>
+          <p id="which"></p>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
